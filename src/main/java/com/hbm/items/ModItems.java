@@ -837,6 +837,7 @@ public class ModItems {
 	public static Item black_hole;
 	public static Item singularity_spark;
 	public static Item crystal_xen;
+	public static Item testboom;
 	public static Item inf_water;
 	public static Item inf_water_mk2;
 
@@ -2898,6 +2899,7 @@ public class ModItems {
 		singularity_spark = new ItemDrop().setUnlocalizedName("singularity_spark").setMaxStackSize(1).setCreativeTab(MainRegistry.controlTab).setContainerItem(ModItems.nuclear_waste).setTextureName(RefStrings.MODID + ":singularity_spark_alt");
 		pellet_antimatter = new ItemDrop().setUnlocalizedName("pellet_antimatter").setCreativeTab(MainRegistry.controlTab).setContainerItem(ModItems.cell_empty).setTextureName(RefStrings.MODID + ":pellet_antimatter");
 		crystal_xen = new ItemDrop().setUnlocalizedName("crystal_xen").setMaxStackSize(1).setCreativeTab(MainRegistry.controlTab).setTextureName(RefStrings.MODID + ":crystal_xen");
+		testboom = new ItemTestBoom().setUnlocalizedName("testboom").setCreativeTab(MainRegistry.nukeTab).setTextureName(RefStrings.MODID + ":testboom");
 
 		stamp_stone_flat = new ItemStamp(32, StampType.FLAT).setUnlocalizedName("stamp_stone_flat").setMaxStackSize(1).setCreativeTab(MainRegistry.controlTab).setTextureName(RefStrings.MODID + ":stamp_stone_flat");
 		stamp_stone_plate = new ItemStamp(32, StampType.PLATE).setUnlocalizedName("stamp_stone_plate").setMaxStackSize(1).setCreativeTab(MainRegistry.controlTab).setTextureName(RefStrings.MODID + ":stamp_stone_plate");
@@ -5669,6 +5671,7 @@ public class ModItems {
 		GameRegistry.registerItem(black_hole, black_hole.getUnlocalizedName());
 		GameRegistry.registerItem(singularity_spark, singularity_spark.getUnlocalizedName());
 		GameRegistry.registerItem(crystal_xen, crystal_xen.getUnlocalizedName());
+		GameRegistry.registerItem(testboom, testboom.getUnlocalizedName());
 		GameRegistry.registerItem(pellet_antimatter, pellet_antimatter.getUnlocalizedName());
 
 		//Infinite Tanks

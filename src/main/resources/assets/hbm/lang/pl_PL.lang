@@ -5442,3 +5442,4 @@ weapon.elecGun.glass_cannon.visible=Visible Light
 weapon.elecGun.glass_cannon.uv=Ultraviolet Light
 weapon.elecGun.glass_cannon.xray=X-rays
 weapon.elecGun.glass_cannon.gamma=Gamma rays
+item.testboom.name=Testboom
