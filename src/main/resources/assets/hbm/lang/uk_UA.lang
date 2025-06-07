@@ -6194,3 +6194,4 @@ desc.gui.upgrade.effectiveness= * §aЕфективність§r: Складає
 desc.gui.upgrade.overdrive= * §7Перевантаження§r: Складається до 3 рівнів
 desc.gui.upgrade.power= * §1Енергозбереження§r: Складається до 3 рівнів
 desc.gui.upgrade.speed= * §4Швидкість§r: Складається до 3 рівнів
+item.testboom.name=Testboom
